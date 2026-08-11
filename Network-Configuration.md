@@ -22,7 +22,7 @@ I began on the Ubuntu server by checking the available network interfaces and th
 
 I used:
 
-```bash
+
 ip -br addr
 
 This command gave me a quick overview of the network interfaces and allowed me to confirm the IP address assigned to the Ubuntu server.
