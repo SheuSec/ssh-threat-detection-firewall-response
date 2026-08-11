@@ -148,4 +148,4 @@ The next logical step was therefore to automate the identification of these even
 
 Screenshots
 
-The following screenshots support this stage:https://github.com/SheuSec/ssh-threat-detection-firewall-response/blob/main/Screenshots/SSH%20Detection%20Script.pdf
+The following screenshots support this stage:https://github.com/SheuSec/ssh-threat-detection-firewall-response/blob/main/Screenshots/SSH%20Log%20Investigation.pdf
