@@ -42,6 +42,7 @@ I established communication between the Ubuntu server and Kali Linux testing mac
 The systems used:
 
 Ubuntu: 192.168.10.100
+
 Kali:   192.168.10.101
 
 This provided the foundation for the remaining stages.
