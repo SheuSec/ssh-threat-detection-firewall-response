@@ -135,3 +135,4 @@ For this laboratory, Cron provided a simple and understandable way to demonstrat
 Screenshots
 
 The following screenshots support this stage:
+https://github.com/SheuSec/ssh-threat-detection-firewall-response/blob/main/Screenshots/Cron-Automation.pdf
