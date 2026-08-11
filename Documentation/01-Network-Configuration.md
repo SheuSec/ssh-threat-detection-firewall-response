@@ -84,4 +84,4 @@ This made the later investigation easier because I already understood the networ
 Screenshots
 
 The following evidence supports this stage:
-
+https://github.com/SheuSec/ssh-threat-detection-firewall-response/blob/main/Screenshots/Network%20configuration.pdf
