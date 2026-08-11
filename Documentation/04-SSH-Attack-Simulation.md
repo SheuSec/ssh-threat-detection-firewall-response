@@ -87,4 +87,4 @@ The controlled nature of the test also allowed me to understand the investigatio
 
 Screenshots
 
-The following screenshots support this stage:
+The following screenshots support this stage:https://github.com/SheuSec/ssh-threat-detection-firewall-response/blob/main/Screenshots/SSH%20Attack%20Simulation.pdf
