@@ -162,4 +162,4 @@ This stage therefore reinforced the importance of correlation rather than relyin
 
 Screenshots
 
-The following screenshots support this stage:
+The following screenshots support this stage:https://github.com/SheuSec/ssh-threat-detection-firewall-response/blob/main/Screenshots/IOC-Investigation.pdf
