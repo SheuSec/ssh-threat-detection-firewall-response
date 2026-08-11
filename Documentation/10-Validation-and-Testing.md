@@ -136,4 +136,4 @@ The laboratory also helped me understand the difference between configuration an
 
 Screenshots
 
-The following screenshots support this stage:
+The following screenshots support this stage:https://github.com/SheuSec/ssh-threat-detection-firewall-response/blob/main/Screenshots/Validation-and-Testing.pdf
