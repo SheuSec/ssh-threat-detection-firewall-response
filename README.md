@@ -83,6 +83,7 @@ This allowed me to move through the same general stages I would expect to see du
 Detection → Investigation → Response → Validation
 
 Project Implementation
+
 01 — Network Configuration
 
 I first established communication between the Ubuntu server and Kali Linux testing machine.
@@ -96,6 +97,8 @@ This provided the network foundation required for the SSH and security testing s
 
 Read Network Configuration
 
+
+
 02 — SSH Configuration
 
 I configured and verified the OpenSSH service on Ubuntu.
@@ -104,6 +107,8 @@ SSH was used as the remote service for the controlled authentication testing per
 
 Read SSH Configuration
 
+
+
 03 — Firewall Configuration
 
 I configured UFW to control access to the Ubuntu server.
@@ -111,6 +116,8 @@ I configured UFW to control access to the Ubuntu server.
 The firewall configuration was later used during the containment stage of the investigation.
 
 Read Firewall Configuration
+
+
 
 04 — SSH Attack Simulation
 
@@ -121,6 +128,8 @@ The purpose was to create a detectable event within my isolated laboratory envir
 I did not perform a sustained brute-force attack. The event was deliberately controlled so that I could investigate how Ubuntu recorded the activity.
 
 Read SSH Attack Simulation
+
+
 
 05 — SSH Log Investigation
 
@@ -133,6 +142,8 @@ The main evidence source was:
 I used Linux commands such as grep and tail to filter SSH-related authentication events and identify the source IP and username involved.
 
 Read SSH Log Investigation
+
+
 
 06 — SSH Detection Script
 
@@ -151,6 +162,8 @@ The documentation for the detection stage is available here:
 
 Read SSH Detection Documentation
 
+
+
 07 — Cron Automation
 
 I used Cron to schedule the detection script so that the monitoring process could run automatically.
@@ -160,6 +173,8 @@ For the laboratory, the script was scheduled to execute every minute.
 This demonstrated how a manual log-searching process could be converted into basic automated monitoring.
 
 Read Cron Automation
+
+
 
 08 — IOC Investigation
 
@@ -174,6 +189,8 @@ The investigation also demonstrated why an indicator should be interpreted withi
 
 Read IOC Investigation
 
+
+
 09 — Firewall Containment
 
 After identifying the source involved in the controlled event, I demonstrated how UFW could be used to restrict SSH access from the identified source.
@@ -181,6 +198,8 @@ After identifying the source involved in the controlled event, I demonstrated ho
 The containment stage was followed by validation to determine whether the firewall response produced the expected behaviour.
 
 Read Firewall Containment
+
+
 
 10 — Validation & Testing
 
@@ -197,6 +216,8 @@ Nmap port validation.
 
 Read Validation & Testing
 
+
+
 11 — Challenges & Troubleshooting
 
 The project involved troubleshooting network connectivity, UFW rules, authentication logs, Cron configuration, detection logic, and firewall behaviour.
@@ -204,6 +225,8 @@ The project involved troubleshooting network connectivity, UFW rules, authentica
 I documented the problems encountered and the approach I used to investigate and resolve them.
 
 Read Challenges & Troubleshooting
+
+
 
 12 — Conclusion
 
@@ -261,6 +284,8 @@ Firewall-based containment
 Security documentation
 MITRE ATT&CK mapping
 Troubleshooting
+
+
 Repository Structure
 SSH-Threat-Detection-Firewall-Response/
 │
@@ -283,6 +308,8 @@ SSH-Threat-Detection-Firewall-Response/
 │
 └── Scripts/
     └── ssh_alart.sh
+
+    
 Final Reflection
 
 This project helped me understand that security monitoring is not simply about running a tool and looking at the output.
