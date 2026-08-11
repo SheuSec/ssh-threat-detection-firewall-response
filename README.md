@@ -285,7 +285,7 @@ Security documentation
 MITRE ATT&CK mapping
 Troubleshooting
 
-
+```text
 Repository Structure
 SSH-Threat-Detection-Firewall-Response/
 │
