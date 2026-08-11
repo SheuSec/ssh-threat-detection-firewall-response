@@ -16,7 +16,7 @@ I first checked whether the SSH service was available on the Ubuntu server.
 
 I used:
 
-```bash
+
 sudo systemctl status ssh
 This allowed me to determine whether the SSH service was already installed and running.
 
