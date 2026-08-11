@@ -34,7 +34,7 @@ The decision to run the script every minute was made for the laboratory so that 
 Understanding the Cron Entry
 
 The Cron schedule contains five time fields followed by the command:
-```bash
+
 ┌──── minute
 │ ┌── hour
 │ │ ┌ day of month
